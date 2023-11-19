@@ -1,0 +1,245 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    
+}
+#home,
+#about,
+#gallery,
+#services,
+#contact {
+    scroll-snap-align: start;
+}
+html, body {
+    scroll-behavior: smooth;
+}
+
+body{
+    background: lightpink;
+}
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.logo{
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    user-select: none;
+    cursor: none;
+}
+.navbar a{
+    position: relative;
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 40px;
+    font-weight: 500;
+}
+.navbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: #fff;
+}
+.navbar a:hover::before{
+   width: 100%;
+}
+
+#home{
+    background-image: url(img/Cotton_candy-removebg-preview.png);
+    background-size: cover;
+    background-position: center;
+    height: 102vh;
+    
+
+}
+#about{
+    height: 100vh;
+    font-size: 18px;
+    color:#000;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.text{
+    width: 700px;
+}
+.logo3 img{
+    border-radius: 15px;
+}
+#gallery{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.hero{
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    overflow: hidden;
+
+}
+.hero .carousel{
+    
+    width: 300px;
+    margin: 100px auto 0;
+    overflow: visible;
+}
+.carousel img{
+    -webkit-box-reflect: below 20px linear-gradient(rgba(255,255,255,0.1),rgba(255,255,255,0.3));
+    border-radius: 15px;
+    
+}
+#services {
+    height: 100vh;
+    font-size: 18px;
+    color: #000;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row-reverse;
+}
+.contact-form{
+    position: relative;
+    min-height: 100vh;
+    z-index: 0;
+    background: #69275c;
+    padding: 30px;
+    justify-content: center;
+    display: grid;
+    grid-template-rows: 1fr auto 1fr;
+    align-items: center;
+}
+.container{
+    max-width: 800px;
+    margin-top: 0 auto;
+}
+.contact-form h1{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: #fff;
+    font-family: 'poppins';
+}
+.contact-form h2{
+    line-height: 40px;
+    margin-bottom: 5px;
+    font-size: 30px;
+    font-weight: 500;
+    color: #69275c;
+    text-align: center;
+}
+.contact-form .main{
+    position: relative;
+    display: flex;
+    margin: 30px 0;
+}
+.content{
+    flex-basis: 50%;
+    padding: 3em 3em;
+    background: #fff;
+    box-shadow: 2px 9px 49px -17px rgba(156, 39, 148, 0.1);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+.form-img{
+    flex-basis: 50%;
+    background: #f0f4f8;
+    background-size: cover;
+    padding: 40px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+    display: grid;
+}
+.form-img img{
+    max-width: 100%;
+}
+.btn,
+button,
+input{
+    border-radius: 35px;
+}
+.btn:hover,
+button:hover{
+    color: #97359c;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.contact-form form{
+    margin: 30px 0;
+}
+.contact-form input,
+textarea{
+    outline: none;
+    margin-bottom: 15px;
+    font-stretch: 16px;
+    color: #999;
+    padding: 14px 20px;
+    width: 100%;
+    display: inline-block;
+    box-sizing: border-box;
+    border: none;
+    background: #fcfcfc;
+    transition: 0.3s ease;
+}
+.contact-form input:focus{
+    background: transparent;
+    border: 1px solid #69275c;
+}
+.contact-form button{
+    font-size: 18px;
+    color: #fff;
+    width: 100%;
+    background: #69275c;
+    font-weight: 600;
+    transition: 0.3s ease;
+    padding: 14px 15px;
+    border: 1px solid #69275c;
+
+}
+@media(max-width:736px){
+    .contact-form .main{
+        flex-direction: column;
+    }
+    .contact-form form{
+        margin-top: 30px;
+        margin-bottom: 10px;
+
+    }
+    .form-img{
+        border-radius: 0;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+        order: 2;
+    }
+    .content{
+        order: 1;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}

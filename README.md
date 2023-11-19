@@ -16,6 +16,7 @@ Services
 
 Contact
 
+
 Getting Started
 
 
@@ -24,7 +25,9 @@ https://github.com/Tanikete/Cotton-Candy.git
 
 2. Open the index.html file in your web browser to view the website.
 
+
 Sections
+
 
 About
 

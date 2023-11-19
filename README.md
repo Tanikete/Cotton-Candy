@@ -7,11 +7,17 @@ Cotton Candy Website
 This is the source code for the Cotton Candy website. Cotton Candy is a delightful haven that offers a variety of sweet treats, including signature cotton candy, shaved iced, flavored popcorn, and more.
 
 Table of Contents
+
 About
+
 Gallery
+
 Services
+
 Contact
+
 Getting Started
+
 
 1. Clone the repository:
 https://github.com/Tanikete/Cotton-Candy.git

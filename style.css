@@ -300,7 +300,7 @@ textarea{
    
 }
 
-@media(max-width:577px){
+@media(max-width:500px){
     *{
         overflow-x: hidden;
     }
@@ -315,6 +315,9 @@ textarea{
         display: none;
     }
     .navbar a:nth-child(3){
+        display: none;
+    }
+    .navbar a{
         display: none;
     }
     .header {

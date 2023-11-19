@@ -33,18 +33,22 @@ About
 
 The "About" section provides information about Cotton Candy, its establishment, and the delightful treats it offers. Visitors can learn about the commitment to quality and the unique experiences provided by Cotton Candy.
 
+
 Gallery
 
 The "Gallery" section showcases a variety of images related to the sweet offerings of Cotton Candy, including cotton candy, shaved iced, flavored popcorn, and more. The gallery provides a visual representation of the treats available.
+
 
 Services
 
 The "Services" section outlines the catering services offered by Cotton Candy, including cotton candy catering, popcorn extravaganza, and shaved ice sensation. It also highlights why Cotton Candy is a preferred choice, emphasizing high-quality ingredients and exceptional customer service.
 
 
+
 Contact
 
 The "Contact" section includes a contact form for users to get in touch with Cotton Candy. Users can enter their name, email, and message, and then submit the form. The form uses Formspree for handling form submissions.
+
 
 
 Additional Information
@@ -53,6 +57,7 @@ Additional Information
 
 - The navigation menu allows users to navigate to different sections of the website smoothly.
 
+
 Dependencies
 
 - jQuery: Included via a CDN link for enhanced JavaScript functionality.
@@ -60,6 +65,7 @@ Dependencies
 - Flipster: Used for creating a carousel in the gallery section.
 
 - Ionicons: Included via CDN links for using icon fonts.
+
 
 Authors
 1. Nazianah (Zi)

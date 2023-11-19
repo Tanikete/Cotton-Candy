@@ -1,6 +1,6 @@
 #Cotton Candy
 
-Certainly! A README file is often used to provide information about a project, its structure, and how to get started with it. Below is an example README for the HTML code you've posted:
+
 
 Cotton Candy Website
 This is the source code for the Cotton Candy website. Cotton Candy is a delightful haven that offers a variety of sweet treats, including signature cotton candy, shaved iced, flavored popcorn, and more.

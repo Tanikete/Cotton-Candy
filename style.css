@@ -71,7 +71,7 @@ body {
     background-size: cover;
     background-position: center;
     height: 102vh;
-    width: 100vw;
+    width: 100%;
     display: block;
     
 
@@ -299,8 +299,23 @@ textarea{
     font-size: 2.5em;
     box-shadow: 0 0 0 2px var(--color), 0 0 0 6px #fff;
 }
-
-@media(max-width:1200px){
+/* @media(min-width:1201px){
+    .navbar a{
+        font-size: 2em;
+    }
+    .logo3{
+        margin-right: 5em;
+    }
+    .text{
+        font-size: 1.2em;
+        margin-right: auto;
+    }
+    #services .text{
+        margin-left: 2em;
+    }
+    
+} */
+@media(min-width:1200px) and (max-width: 1399px){
     .header {
         position: fixed;
         top: 0;
@@ -596,6 +611,21 @@ textarea{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+   
+}
+@media(min-width:1400px) {
+    /* Adjust text size or any other styles as needed */
+    .content, #services, #about {
+        font-size: 25px; /* Adjust the font size */
+    }
+
+    /* Adjust spacing between #about and #services */
+    #services {
+        margin-top: 1rem; /* Adjust the margin as needed */
+    }
+    .logo3 img{
+        height: 95%;
     }
    
 }
